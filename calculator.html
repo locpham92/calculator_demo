@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+<p id="result" class="center-vertical" style="border: 1px solid black;width:720px;height:60px;text-align:right;font-size:20px">
+<table>
+    <tr>
+        <td>
+            <button onclick="rad()">rad</button>
+        </td>
+        <td>
+            <button onclick="deg()">deg</button>
+        </td>
+        <td>
+            <button onclick="fact()">x!</button>
+        </td>
+        <td>
+            <button onclick="setScreen('(')">(</button>
+        </td>
+        <td>
+            <button onclick="setScreen(')')">)</button>
+        </td>
+        <td>
+            <button onclick="setScreen('%')">%</button>
+        </td>
+        <td>
+            <button onclick="clearScreen()">AC</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="inv()">Inv</button>
+        </td>
+        <td>
+            <button onclick="sin()">sin</button>
+        </td>
+        <td>
+            <button onclick="ln()">ln</button>
+        </td>
+        <td>
+            <button value="7" onclick="setScreen(7)">7</button>
+        </td>
+        <td>
+            <button value="8" onclick="setScreen(8)">8</button>
+        </td>
+        <td>
+            <button value="9" onclick="setScreen(9)">9</button>
+        </td>
+        <td>
+            <button onclick="setScreen('/')">/</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="pi()">π</button>
+        </td>
+        <td>
+            <button onclick="cos()">cos</button>
+        </td>
+        <td>
+            <button onclick="log()">log</button>
+        </td>
+        <td>
+            <button value="4" onclick="setScreen(4)">4</button>
+        </td>
+        <td>
+            <button value="5" onclick="setScreen(5)">5</button>
+        </td>
+        <td>
+            <button value="6" onclick="setScreen(6)">6</button>
+        </td>
+        <td>
+            <button onclick="setScreen('*')">*</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="e()">e</button>
+        </td>
+        <td>
+            <button onclick="tan()">tan</button>
+        </td>
+        <td>
+            <button onclick="sqrt()">√</button>
+        </td>
+        <td>
+            <button value="1" onclick="setScreen(1)">1</button>
+        </td>
+        <td>
+            <button value="2" onclick="setScreen(2)">2</button>
+        </td>
+        <td>
+            <button value="3" onclick="setScreen(3)">3</button>
+        </td>
+        <td>
+            <button onclick="setScreen('-')">-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="ans()">Ans</button>
+        </td>
+        <td>
+            <button onclick="exp()">EXP</button>
+        </td>
+        <td>
+            <button onclick="amuy()">x^y</button>
+        </td>
+        <td>
+            <button value="0" onclick="setScreen(0)">0</button>
+        </td>
+        <td>
+            <button onclick="setScreen('.')">.</button>
+        </td>
+        <td>
+            <button onclick="cal()">=</button>
+        </td>
+        <td>
+            <button onclick="setScreen('+')">+</button>
+        </td>
+    </tr>
+</table>
+<script src="cal.js"></script>
+</body>
+</html>
